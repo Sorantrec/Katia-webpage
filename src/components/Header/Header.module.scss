@@ -1,0 +1,23 @@
+@import "../App/styles/general";
+
+.logo {
+  @include font(700, 36, $fontTitle, $white);
+  width: 51%;
+  span {
+    display: block;
+    color: $accent;
+  }
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: $accent;
+  }
+}
+
+.wrapper {
+  @include flex(null , center);
+  @include position_center(fixed, true)
+  width: 83.33333333333333%;
+  top: calculateVh(40);
+}

@@ -1,0 +1,5 @@
+@import "../../App/styles/general";
+
+.title {
+  @include font(900, 64, $fontTitle, $white, 1.32296875);
+}

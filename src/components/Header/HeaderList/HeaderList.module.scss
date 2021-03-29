@@ -1,0 +1,31 @@
+@import "../../App/styles/general";
+
+.wrapper {
+  @include flex(null  , center, wrap);
+  width: 40%;
+}
+
+.item {
+  margin-right: calc(70*100%/940);
+  position: relative;
+
+  &:nth-of-type(3) {
+    margin-right: 0;
+  }
+
+  a {
+    @include font(700, 24, $fontTitle, $white);
+  }
+}
+
+.active {
+  &::before {
+    @include basic-animation;
+    @include pseudo;
+    @include boxSize(10, 10);
+    @include position_center(absolute, true);
+    background-color: $accent;
+    border-radius: 50%;
+    bottom: - calculateRem(20);
+  }
+}

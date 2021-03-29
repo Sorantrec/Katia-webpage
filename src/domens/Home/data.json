@@ -1,0 +1,55 @@
+{
+  "EN": {
+    "Header": [
+      {
+        "title": "About me",
+        "url": "/"
+      },
+      {
+        "title": "Portfolio",
+        "url": "/portfolio"
+      },
+      {
+        "title": "Contact",
+        "url": "/contact"
+      }
+    ],
+    "Home": {
+      "Hero": {
+        "title": ["Kateryna", "Kaida"],
+        "position": "UI/UX DESIGNER",
+        "info": "My main design tools are curiosity, empathy and active listening.\n\n\n And here’s a little secret: I’m slightly obssessed with what I do ",
+        "primary": "Check portfolio",
+        "secondary": "Download CV"
+      },
+      "Description": {
+        "title": "Let’s get to know <span>each other</span>",
+        "text": "Hi there! Glad to see you on my page. I’m a UI/UX designer with a year of commercial experience. And also a language learning geek and a proud owner of two boisterous cats.\n\n\n I transitioned to digital design from English teaching. This background has helped me develop even bigger passion for learning and sharing knowledge as well as given a huge boost to my communicative skills and a few hints on how people think and memorize stuff.\n\n\n If you ask me where I draw my inspiration from, it would be music, travelling and other people."
+      }
+    }
+  },
+  "PL": {
+    "Header": [
+      {
+        "title": "O mnie",
+        "url": "/"
+      },
+      {
+        "title": "Portfolio",
+        "url": "/portfolio"
+      },
+      {
+        "title": "Kontakt",
+        "url": "/contact"
+      }
+    ],
+    "Home": {
+      "Hero": {
+        "title": ["Kateryna", "Kaida"],
+        "info": "Cześć! Jestem UI/UX designerem z Rzeszowa. Moim celem jest stworzenia lepszego świata za pomocą pięknego designu.",
+        "primary": "Sprawdź portfolio",
+        "secondary": "Pobierz CV"
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+@import "../App/styles/general";
+
+.button {
+  @include basic-animation;
+  @include padding(false, true, 14, 30, 14, 30);
+  @include font(700, 24, $fontTitle);
+  border-radius: calculateRem(5);
+  border: none;
+}
+
+.primary {
+  background-color: $accent;
+  color: $black;
+
+  &:hover,
+  &:focus,
+  &:active {
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.9);
+  }
+}
+
+.secondary {
+  color: $white;
+  background-color: transparent;
+  position: relative;
+
+  &::after {
+    @include pseudo;
+    @include position_center(absolute, true, true);
+    border: 3px solid $white;
+    width: 100%;
+    height: 100%;
+    border-radius: calculateRem(10);
+  }
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: $white;
+    color: $black;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.9);
+  }
+}

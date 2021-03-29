@@ -1,0 +1,5 @@
+@import '../../components/App/styles/general';
+
+.text {
+  @include font(400, 20, $font, $white, 1.8);
+}
